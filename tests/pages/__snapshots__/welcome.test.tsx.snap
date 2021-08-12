@@ -43,7 +43,7 @@ exports[`Index page renders Index page 1`] = `
       </div>
     </section>
     <section
-      class="secondary--section"
+      class="secondary--section projects--wrapper-bg"
     >
       <div
         class="flex justify-center pt-20"
@@ -51,7 +51,7 @@ exports[`Index page renders Index page 1`] = `
         <h1
           class="user--title"
         >
-          Some of my projects
+          My projects
         </h1>
       </div>
       <div
@@ -88,7 +88,7 @@ exports[`Index page renders Index page 1`] = `
                 class="project--link"
                 href="link"
               >
-                github
+                Link
               </a>
             </div>
           </div>
@@ -124,7 +124,7 @@ exports[`Index page renders Index page 1`] = `
                 class="project--link"
                 href="link"
               >
-                github
+                Link
               </a>
             </div>
           </div>
@@ -160,7 +160,7 @@ exports[`Index page renders Index page 1`] = `
                 class="project--link"
                 href="link"
               >
-                github
+                Link
               </a>
             </div>
           </div>
@@ -286,30 +286,48 @@ exports[`Index page renders Index page 1`] = `
             Made with 
             <a
               href="https://nextjs.org/"
+              rel="nofollow"
+              target="_blank"
             >
                next js 
             </a>
             ,
             <a
               href="https://www.typescriptlang.org/"
+              rel="nofollow"
+              target="_blank"
             >
                typescript 
             </a>
             ,
             <a
               href="https://tailwindcss.com/"
+              rel="nofollow"
+              target="_blank"
             >
                tailwindcss 
             </a>
             ,
             <a
+              href="https://undraw.co/"
+              rel="nofollow"
+              target="_blank"
+            >
+               undraw illustrations 
+            </a>
+            ,
+            <a
               href="https://www.contentful.com/"
+              rel="nofollow"
+              target="_blank"
             >
                contentful
             </a>
              and
             <a
               href="https://merakiui.com/"
+              rel="nofollow"
+              target="_blank"
             >
                merakiui 
             </a>
