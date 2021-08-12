@@ -27,7 +27,7 @@ const Project: FC<Props> = ({ title, link, stack, imageUrl }) => {
             {stack}
           </span>
           <a href={link} className="project--link">
-            github
+            Link
           </a>
         </div>
       </div>

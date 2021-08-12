@@ -6,10 +6,9 @@ import CmsAPI from '../core/api';
 import { FC } from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { GetStaticProps } from 'next';
-import userMock from '__mocks__/userMock';
 import Projects from '../components/Projects/Projects';
 import { Document } from '@contentful/rich-text-types';
-import { useDarkModeClassName } from '../core/hooks/utils/useDarkModeClassName';
+import { useDarkModeClassName } from 'core/hooks/utils/useDarkModeClassName';
 import { EntryCollection } from 'contentful';
 
 interface Props {

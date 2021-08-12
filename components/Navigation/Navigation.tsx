@@ -1,7 +1,7 @@
 import Toolbar from './components/Toolbar';
 import NavItems from './components/NavItems';
 import PrimaryLink from '../Shared/PrimaryLink';
-import { useDarkModeClassName } from '../../core/hooks/utils/useDarkModeClassName';
+import { useDarkModeClassName } from 'core/hooks/utils/useDarkModeClassName';
 
 const Navigation = () => {
   const darkModeClass = useDarkModeClassName();

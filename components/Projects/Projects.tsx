@@ -15,9 +15,9 @@ interface Props {
 
 const Projects: FC<Props> = ({ projects }) => {
   return (
-    <section className={'secondary--section'}>
+    <section className={'secondary--section projects--wrapper-bg'}>
       <div className={'flex justify-center pt-20'}>
-        <PrimaryTitle title={'Some of my projects'} />
+        <PrimaryTitle title={'My projects'} />
       </div>
       <div className={'projects--container'}>
         {projects.map((project, index) => (
